@@ -20,7 +20,7 @@ export default defineConfig({
 			preprocess: [
 				mdsvex({
 					extensions: ['.svx', '.md'],
-                                        remarkPlugins: [remarkMath],
+					remarkPlugins: [remarkMath],
 					rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings, rehypeKatexSvelte]
 				})
 			],

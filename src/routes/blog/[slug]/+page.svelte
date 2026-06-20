@@ -3,12 +3,12 @@
 	let { data }: PageProps = $props();
 </script>
 
-<style>
-article {
-  counter-reset: sidenote-counter;
-}
-</style>
-
 <article>
 	<data.content />
 </article>
+
+<style>
+	article {
+		counter-reset: sidenote-counter;
+	}
+</style>
