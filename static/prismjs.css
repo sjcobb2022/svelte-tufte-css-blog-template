@@ -1,8 +1,12 @@
 /**
+ * Taken from https://github.com/PrismJS/prism-themes
+ * Modified to remove background color to remain consistent with tufte-css styling.
+ * Replace with whatever theme you would want. 
+ */
+
+/**
  * One Dark theme for prism.js
  * Based on Atom's One Dark theme: https://github.com/atom/atom/tree/master/packages/one-dark-syntax
- *
- * Modified to remove background color to remain consistent with tufte-css styling.
  */
 
 /**

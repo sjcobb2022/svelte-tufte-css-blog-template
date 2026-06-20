@@ -4,7 +4,7 @@ const modules = import.meta.glob('/src/posts/*.md', { eager: true });
 
 export const load: PageLoad = async () => {
 	const posts = Object.entries(modules).map(([path, mod]) => ({
-		slug: path.replace('./', '').replace('.md', ''),
+		slug: path.replace('/src/posts/', '').replace('.md', ''),
 		title: (mod as any).metadata.title,
 		date: (mod as any).metadata.date
 	}));

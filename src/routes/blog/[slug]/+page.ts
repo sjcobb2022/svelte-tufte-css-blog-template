@@ -5,7 +5,7 @@ const modules = import.meta.glob('/src/posts/*.md');
 
 export const entries: EntryGenerator = () => {
 	return Object.keys(modules).map((path) => ({
-		slug: path.replace('../', '').replace('.md', '')
+		slug: path.replace('/src/posts/', '').replace('.md', '')
 	}));
 };
 

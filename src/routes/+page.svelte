@@ -7,5 +7,5 @@
 <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
 
 {#each data.posts as post}
-	<h3>{post.title}</h3>
+	<a href="/blog/{post.slug}"><h3>{post.title}</h3></a>
 {/each}
