@@ -3,9 +3,12 @@
 	let { data }: PageProps = $props();
 </script>
 
-<article>
-	<h1>{data.title}</h1>
-	<p>Published: {data.date}</p>
+<style>
+article {
+  counter-reset: sidenote-counter;
+}
+</style>
 
+<article>
 	<data.content />
 </article>
