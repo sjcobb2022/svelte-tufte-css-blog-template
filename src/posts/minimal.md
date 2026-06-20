@@ -1,6 +1,6 @@
 ---
 title: Minimal Demo
-date: "2026-6-20"
+date: '2026-6-20'
 ---
 
 # Minimal Demo
@@ -120,7 +120,7 @@ Full-width figures span the entire page:
 ```javascript
 // Code blocks use monospace fonts and prismjs
 function example(x) {
-  return x * 2;
+	return x * 2;
 }
 ```
 
