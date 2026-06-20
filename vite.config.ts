@@ -5,6 +5,8 @@ import adapter from '@sveltejs/adapter-static';
 import { sveltekit } from '@sveltejs/kit/vite';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import remarkMath from 'remark-math';
+import rehypeKatexSvelte from 'rehype-katex-svelte';
 
 export default defineConfig({
 	plugins: [
@@ -18,7 +20,8 @@ export default defineConfig({
 			preprocess: [
 				mdsvex({
 					extensions: ['.svx', '.md'],
-					rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings]
+                                        remarkPlugins: [remarkMath],
+					rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings, rehypeKatexSvelte]
 				})
 			],
 			extensions: ['.svelte', '.svx', '.md']
