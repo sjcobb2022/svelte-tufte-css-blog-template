@@ -82,7 +82,7 @@ HTML using `blockquote` and `footer` elements. See page 20 of
 for an example in print.
 
 <p>
-<span class="newthought">In his later books</span><label for="sn-in-his-later-books" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-in-his-later-books" class="margin-toggle"/><span class="sidenote"><a href="http://www.edwardtufte.com/tufte/books_be"><em>Beautiful Evidence</em></a></span>, Tufte starts each section with a bit of vertical space, a non-indented
+<span class="newthought">In his later books</span><label for="sn-in-his-later-books" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-in-his-later-books" class="margin-toggle"/><span class="sidenote"><a href="https://www.edwardtufte.com/book/beautiful-evidence/"><em>Beautiful Evidence</em></a></span>, Tufte starts each section with a bit of vertical space, a non-indented
 paragraph, and the first few words of the sentence set in small caps. For this
 we use a span with the class `newthought`, as demonstrated at the beginning of
 this paragraph. Vertical spacing is accomplished separately through `section`
@@ -386,7 +386,8 @@ course still rectangular.
 
 ## LaTeX Support
 
-This template also supports LaTeX mathematical notation. Here are some examples:
+This template also supports $\LaTeX{}$ mathematical notation. Here are some
+examples:
 
 ### Inline Math
 
