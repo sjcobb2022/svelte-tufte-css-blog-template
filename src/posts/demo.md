@@ -1,6 +1,6 @@
 ---
 title: Tufte CSS
-date: '2026-6-20'
+date: "2026-6-20"
 ---
 
 # Tufte CSS
@@ -68,12 +68,14 @@ document subtitle, `h2` for section headings, and `h3` for low-level headings.
 More specific headings are not supported. If you feel the urge to reach for a
 heading of level 4 or greater, consider redesigning your document:
 
-<blockquote>
-<p>
-[It is] notable that the Feynman lectures (3 volumes) write about all of physics in 1800 pages, using only 2 levels of hierarchical headings: chapters and A-level heads in the text. It also uses the methodology of sentences which then cumulate sequentially into paragraphs, rather than the grunts of bullet points. Undergraduate Caltech physics is very complicated material, but it didn't require an elaborate hierarchy to organize.
-</p>
-<footer><a href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB">Edward Tufte, forum post, 'Book design: advice and examples' thread</a></footer>
-</blockquote>
+> [It is] notable that the Feynman lectures (3 volumes) write about all of
+> physics in 1800 pages, using only 2 levels of hierarchical headings: chapters
+> and A-level heads in the text. It also uses the methodology of sentences which
+> then cumulate sequentially into paragraphs, rather than the grunts of bullet
+> points. Undergraduate Caltech physics is very complicated material, but it
+> didn't require an elaborate hierarchy to organize.
+>
+> <footer><a href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000hB">Edward Tufte, forum post, 'Book design: advice and examples' thread</a></footer>
 
 As a bonus, this excerpt regarding the use of headings provides an example of
 block quotes. In Tufte CSS they are just lightly styled, semantically correct
@@ -231,7 +233,7 @@ paragraph:
 <label for="mn-demo" class="margin-toggle">&#8853;</label>
 <input type="checkbox" id="mn-demo" class="margin-toggle" />
 <span class="marginnote">
-	This is a margin note. Notice there isn't a number preceding the note.
+  This is a margin note. Notice there isn't a number preceding the note.
 </span>
 ```
 
@@ -292,13 +294,13 @@ videos, e.g.
 
 ```html
 <figure class="iframe-wrapper">
-	<iframe
-		width="853"
-		height="480"
-		src="https://www.youtube.com/embed/YslQ2625TR4"
-		frameborder="0"
-		allowfullscreen
-	></iframe>
+  <iframe
+    width="853"
+    height="480"
+    src="https://www.youtube.com/embed/YslQ2625TR4"
+    frameborder="0"
+    allowfullscreen
+  ></iframe>
 </figure>
 ```
 
