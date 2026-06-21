@@ -1,6 +1,6 @@
 ---
 title: Minimal Demo
-date: '2026-6-20'
+date: "2026-6-20"
 ---
 
 # Minimal Demo
@@ -27,11 +27,11 @@ for subsections.
 ## Sidenotes and Margin Notes
 
 <p>
-Sidenotes are numbered references in the margin<label for="sn-example" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-example" class="margin-toggle"/><span class="sidenote">. This is a sidenote with a number.</span> They keep supporting information close to the text without interrupting the flow.
+Sidenotes are numbered references in the margin<label for="sn-example" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-example" class="margin-toggle"/><span class="sidenote">This is a sidenote with a number.</span>. They keep supporting information close to the text without interrupting the flow.
 </p>
 
 <p>
-Margin notes are unnumbered <label for="mn-example" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-example" class="margin-toggle"/><span class="marginnote">. This is a margin note without a number.</span> Use the &#8853; symbol as a toggle on small screens.
+Margin notes are unnumbered <label for="mn-example" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-example" class="margin-toggle"/><span class="marginnote">This is a margin note without a number.</span>. Use the &#8853; symbol as a toggle on small screens.
 </p>
 
 </section>
@@ -120,7 +120,7 @@ Full-width figures span the entire page:
 ```javascript
 // Code blocks use monospace fonts and prismjs
 function example(x) {
-	return x * 2;
+  return x * 2;
 }
 ```
 
