@@ -1,13 +1,22 @@
-# Blog template
+# Minimal Tufte Blog Template
 
-This is a minimal blog template that uses the wonderful
+A minimal blog template built on the wonderful
 [tufte-css](https://github.com/edwardtufte/tufte-css).
 
-It is incredibly barebones, but it is a solid template for anyone in need of a
-simple markdown blog.
+The template is intentionally minimal to reduce the number of moving parts.
 
-There are various samples and some fun components that could help with
+We use mdsvex for parsing markdown, and
+[rehype-katex-svelte](https://github.com/kwshi/rehype-katex-svelte) for LaTeX
+support.
+
+All CSS and assets live in `./static`, including `prismjs.css` for syntax
+highlighting theming. The chosen theme is One Dark, with the background removed
+to fit the Tufte aesthetic.
+
+The repo includes sample content and a few helper components to speed up
 development.
+
+Demo posts can be found in `./src/posts/`.
 
 Made with love and without AI.
 
