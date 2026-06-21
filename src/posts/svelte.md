@@ -1,6 +1,6 @@
 ---
 title: Svelte Components Demo
-date: "2026-6-20"
+date: '2026-6-20'
 ---
 
 <script>
