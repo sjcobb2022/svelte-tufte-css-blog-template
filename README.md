@@ -21,5 +21,7 @@ Demo posts can be found in `./src/posts/`.
 
 Made with love and without AI.
 
+Markdown render of the tufte-css demo:
+
 ![tufte-1](.github/assets/screenshot_1.png)
 ![tufte-2](.github/assets/screenshot_2.png)
