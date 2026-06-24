@@ -1,5 +1,8 @@
 # Minimal Tufte Blog Template
 
+Sibling project to
+[astro-tufte-css-blog-template](https://github.com/sjcobb2022/astro-tufte-css-blog-template).
+
 A minimal blog template built on the wonderful
 [tufte-css](https://github.com/edwardtufte/tufte-css).
 
